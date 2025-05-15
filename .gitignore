@@ -1,0 +1,14 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Carpetas generadas por Netlify (en caso de usar funciones)
+.netlify/
