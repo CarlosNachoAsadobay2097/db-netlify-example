@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .forum-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .forum-form-container,
+  .comment-section {
+    flex: 1 1 45%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .input-field {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #37CC8D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comment {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ececea;
+    border-radius: 6px;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    right: 5px; /* Cambia 'left' por 'right' */
+    top: 5px;
+    border: none;
+    background: transparent;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
